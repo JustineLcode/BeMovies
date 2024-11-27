@@ -4,9 +4,102 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
     <link rel="stylesheet" href="styles.css">
+/>
 </head>
 <body>
-    <script type="text" src="app.js"></script>
+<section class="header">
+    <div class="container">
+        <div class="logo"><span>BE</span>MOVIES</div>
+
+        <div><ul class="navbar">
+            <li><a href="#">SEARCH</a></li>
+            <li><a href="#">LATEST</a></li>
+            <li><a href="#">GENRES</a></li>
+            <li><a href="#">REGISTER</a></li>
+            <li><a href="#">LOGIN</a></li>
+        </ul></div>
+    </div>
+    </section>
+    <section class="hero">
+        <div class="container">
+            <div>
+                <input type="text" name="barreRecherche" id="barreRecherche" placeholder="Film">
+                <button class="btnSearch">></button>
+
+                <p>Results for ""</p>
+            </div>
+            <h2>Latest releases</h2>
+            <div class="swiper">
+                <div class="swiper-wrapper">
+<!--                     <ul class="listeFilms">
+                        <li class="film">
+                            <a href="">
+                                <img src="" alt="">
+                            </a>
+                        </li>
+                    </ul> -->
+
+                    
+            <!--         <div class="swiper-slide">
+                        <img src="image1.jpg" alt="Image 1">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="image2.jpg" alt="Image 2">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="image3.jpg" alt="Image 3">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="image4.jpg" alt="Image 3">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="image5.jpg" alt="Image 3">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="image6.jpg" alt="Image 3">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="image7.jpg" alt="Image 3">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="image10.jpg" alt="Image 3">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="image11.jpg" alt="Image 3">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="image12.jpg" alt="Image 3">
+                    </div> -->
+                </div>
+                <button class="swiper-button-prev"></button>
+                <button class="swiper-button-next"></button>
+                
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <div class="container">
+        <div class="logo"><span>BE</span>MOVIES</div>
+        <div><ul class="navbar">
+            <li><a href="#">SEARCH</a></li>
+            <li><a href="#">LATEST</a></li>
+            <li><a href="#">GENRES</a></li>
+            <li><a href="#">REGISTER</a></li>
+            <li><a href="#">SIGNIN</a></li>
+        </ul></div>
+        <div class="droits">@2023 - All rights reserved</div>
+        </div>
+    </section>
+
+
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="app.js"></script>
+    
 </body>
 </html>
